@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+##Instructions
+
+- Rename .env.example to .env
+- Go to phymyadmin and create the database with the name in env or change the db_database name in env
+- Run migrations to create tables
+- Run composer install
+- Run php artisan serve
